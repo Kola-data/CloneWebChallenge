@@ -58,7 +58,7 @@ body{
 }
 .hero .search-content{
     /* position: relative; */
-    background-color: rgba(82, 82, 82, 0.8);
+    background-color: rgba(29, 29, 29, 0.8);
     height: 100vh;
     position: absolute;
     width: 100%;
@@ -71,15 +71,53 @@ body{
 }
 .search-content .content{
     /* background-color: #fff; */
-    padding-top: 300px; 
+    padding-top: 210px; 
     display: flex;
     flex-direction: column;  
-    padding-left: 100px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    /* width: 100%; */
 }
 .filter-form form{
     display: flex;
     gap: 15px;
     background-color: #fff;
+    width: 100%;
+    padding: 12px 8px;
+    border-radius: 10px;
+}
+.input{
+    display: flex;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.input-p{
+    margin: -3px 10px;
+}
+.input svg{
+    width: 25px;
+    height: 25px;
+    padding: 8px 3px;
+}
+.content > p{
+    font-size: 40px;
+    color: #fff;
+}
+.content button{
+    padding: 16px 20px;
+    font-size: 17px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(13, 97, 207);
+    cursor: pointer;
+    color: #fff;
+}
+.content button:hover{
+    background-color: rgb(13, 58, 207);
 }
 @media screen and (max-width: 700px) {
     .header-content{
